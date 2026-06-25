@@ -1,0 +1,168 @@
+{"name":"test","timestamp":"2026-06-24T20:45:20.277Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T20:45:20.278Z"}
+{"name":"slow_tool","duration_ms":12.5,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T20:45:20.290Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T20:45:20.291Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T20:45:20.291Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T20:45:20.291Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T20:45:30.182Z"}
+{"name":"slow_tool","duration_ms":12.5,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T20:45:30.195Z"}
+{"name":"test","timestamp":"2026-06-24T20:45:30.195Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T20:45:30.195Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T20:45:30.195Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T20:45:30.196Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T20:46:04.407Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T20:46:04.407Z"}
+{"name":"test","timestamp":"2026-06-24T20:46:04.407Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T20:46:04.407Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T20:46:04.408Z"}
+{"name":"slow_tool","duration_ms":12.5,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T20:46:04.420Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T20:47:09.039Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T20:47:09.040Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T20:47:09.040Z"}
+{"name":"test","timestamp":"2026-06-24T20:47:09.040Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T20:47:09.040Z"}
+{"name":"slow_tool","duration_ms":12.5,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T20:47:09.053Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T20:48:09.670Z"}
+{"name":"slow_tool","duration_ms":12.5,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T20:48:09.683Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T20:48:09.683Z"}
+{"name":"test","timestamp":"2026-06-24T20:48:09.683Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T20:48:09.683Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T20:48:09.683Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T20:52:18.493Z"}
+{"name":"slow_tool","duration_ms":13.4,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T20:52:18.506Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T20:52:18.507Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T20:52:18.507Z"}
+{"name":"test","timestamp":"2026-06-24T20:52:18.508Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T20:52:18.508Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T20:57:23.645Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T20:57:23.645Z"}
+{"name":"slow_tool","duration_ms":15.0,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T20:57:23.660Z"}
+{"name":"test","timestamp":"2026-06-24T20:57:23.660Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T20:57:23.661Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T20:57:23.661Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T20:58:37.271Z"}
+{"name":"test","timestamp":"2026-06-24T20:58:37.272Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T20:58:37.272Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T20:58:37.272Z"}
+{"name":"slow_tool","duration_ms":12.5,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T20:58:37.285Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T20:58:37.285Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T20:59:53.400Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T20:59:53.400Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T20:59:53.400Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T20:59:53.400Z"}
+{"name":"test","timestamp":"2026-06-24T20:59:53.401Z"}
+{"name":"slow_tool","duration_ms":12.5,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T20:59:53.414Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:02:27.569Z"}
+{"name":"test","timestamp":"2026-06-24T21:02:27.569Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:02:27.569Z"}
+{"name":"slow_tool","duration_ms":11.4,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:02:27.581Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:02:27.581Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:02:27.581Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:05:37.789Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:05:37.790Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:05:37.790Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:05:37.790Z"}
+{"name":"test","timestamp":"2026-06-24T21:05:37.790Z"}
+{"name":"slow_tool","duration_ms":12.5,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:05:37.803Z"}
+{"name":"test","timestamp":"2026-06-24T21:14:07.318Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:14:07.319Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:14:07.319Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:14:07.319Z"}
+{"name":"slow_tool","duration_ms":12.5,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:14:07.332Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:14:07.332Z"}
+{"name":"slow_tool","duration_ms":12.5,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:16:16.471Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:16:16.471Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:16:16.471Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:16:16.471Z"}
+{"name":"test","timestamp":"2026-06-24T21:16:16.472Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:16:16.472Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:18:45.990Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:18:45.992Z"}
+{"name":"slow_tool","duration_ms":11.3,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:18:46.003Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:18:46.003Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:18:46.003Z"}
+{"name":"test","timestamp":"2026-06-24T21:18:46.003Z"}
+{"name":"test","timestamp":"2026-06-24T21:19:08.440Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:19:08.441Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:19:08.441Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:19:08.441Z"}
+{"name":"slow_tool","duration_ms":12.5,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:19:08.454Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:19:08.454Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:21:43.805Z"}
+{"name":"slow_tool","duration_ms":12.5,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:21:43.818Z"}
+{"name":"test","timestamp":"2026-06-24T21:21:43.818Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:21:43.818Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:21:43.818Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:21:43.820Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:24:54.239Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:24:54.239Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:24:54.239Z"}
+{"name":"slow_tool","duration_ms":15.0,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:24:54.254Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:24:54.254Z"}
+{"name":"test","timestamp":"2026-06-24T21:24:54.254Z"}
+{"name":"slow_tool","duration_ms":12.5,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:26:40.839Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:26:40.840Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:26:40.840Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:26:40.841Z"}
+{"name":"test","timestamp":"2026-06-24T21:26:40.841Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:26:40.841Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:27:58.448Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:27:58.449Z"}
+{"name":"test","timestamp":"2026-06-24T21:27:58.449Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:27:58.449Z"}
+{"name":"slow_tool","duration_ms":12.5,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:27:58.462Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:27:58.462Z"}
+{"name":"test","timestamp":"2026-06-24T21:28:40.263Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:28:40.263Z"}
+{"name":"slow_tool","duration_ms":12.5,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:28:40.276Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:28:40.276Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:28:40.276Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:28:40.276Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:30:10.822Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:30:10.822Z"}
+{"name":"slow_tool","duration_ms":10.9,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:30:10.834Z"}
+{"name":"test","timestamp":"2026-06-24T21:30:10.834Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:30:10.834Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:30:10.834Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:32:27.546Z"}
+{"name":"test","timestamp":"2026-06-24T21:32:27.546Z"}
+{"name":"slow_tool","duration_ms":12.5,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:32:27.559Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:32:27.560Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:32:27.560Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:32:27.560Z"}
+{"name":"slow_tool","duration_ms":12.5,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:33:57.311Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:33:57.311Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:33:57.311Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:33:57.311Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:33:57.312Z"}
+{"name":"test","timestamp":"2026-06-24T21:33:57.312Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:36:47.360Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:36:47.360Z"}
+{"name":"slow_tool","duration_ms":15.0,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:36:47.375Z"}
+{"name":"test","timestamp":"2026-06-24T21:36:47.376Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:36:47.376Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:36:47.376Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:39:10.516Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:39:10.516Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:39:10.516Z"}
+{"name":"slow_tool","duration_ms":15.0,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:39:10.532Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:39:10.532Z"}
+{"name":"test","timestamp":"2026-06-24T21:39:10.532Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:41:31.291Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:41:31.291Z"}
+{"name":"slow_tool","duration_ms":15.0,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:41:31.306Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:41:31.306Z"}
+{"name":"test","timestamp":"2026-06-24T21:41:31.306Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:41:31.307Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:44:08.899Z"}
+{"name":"test","timestamp":"2026-06-24T21:44:08.900Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:44:08.900Z"}
+{"name":"slow_tool","duration_ms":12.5,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:44:08.912Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:44:08.913Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:44:08.913Z"}
+{"name":"test","timestamp":"2026-06-24T21:46:30.552Z"}
+{"name":"slow_tool","duration_ms":15.0,"success":true,"argument_size":2,"result_size":4,"tool_call_id":"call_3","timestamp":"2026-06-24T21:46:30.567Z"}
+{"name":"failing_tool","duration_ms":0.0,"success":false,"error":"RuntimeError: something broke","tool_call_id":"call_4","timestamp":"2026-06-24T21:46:30.567Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":22,"result_size":7,"tool_call_id":"call_2","timestamp":"2026-06-24T21:46:30.568Z"}
+{"name":"search","duration_ms":0.0,"success":true,"argument_size":11,"result_size":5,"tool_call_id":"call_5","timestamp":"2026-06-24T21:46:30.568Z"}
+{"name":"get_weather","duration_ms":0.0,"success":true,"argument_size":16,"result_size":5,"tool_call_id":"call_1","timestamp":"2026-06-24T21:46:30.568Z"}

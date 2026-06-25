@@ -1,3 +1,7 @@
+## [0.2.1] - 2026-06-25
+
+### Changed
+- Submodule tests: Chat(3t), Embedding(2t), Tool(7t). Infrastructure: rubocop, overcommit, CI matrix, gemspec, SimpleCov.
 # Changelog
 
 ## 0.2.0 (2026-06-21)
