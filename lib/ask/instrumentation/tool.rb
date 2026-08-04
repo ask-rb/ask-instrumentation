@@ -2,6 +2,7 @@
 
 require "json"
 require "fileutils"
+require "time" # Time#iso8601 for trace log timestamps
 
 module Ask
   module Instrumentation
