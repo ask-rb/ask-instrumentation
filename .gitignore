@@ -1,1 +1,4 @@
 *.gem
+
+# Runtime tool-trace logs
+log/tools/
