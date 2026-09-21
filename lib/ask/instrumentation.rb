@@ -48,6 +48,7 @@ module Ask
     autoload :Chat, "ask/instrumentation/chat"
     autoload :Embedding, "ask/instrumentation/embedding"
     autoload :Tool, "ask/instrumentation/tool"
+    autoload :RuntimeAdapter, "ask/instrumentation/runtime_adapter"
 
     class << self
       # Subscribe to ask instrumentation events.
@@ -157,6 +158,33 @@ module Ask
       #   end
       def current_metadata
         Thread.current[:ask_instrumentation_metadata] || {}
+      end
+
+      # Create and return a RuntimeAdapter that bridges ask-runtime
+      # EventSink events to Ask::Instrumentation events.
+      #
+      # The returned sink is an Ask::Runtime::EventSink that should be
+      # passed as the +event_sink:+ parameter to an ExecutionContext.
+      # Runtime tool lifecycle events emitted through the sink will be
+      # re-emitted as Ask::Instrumentation events with stable names:
+      #
+      #   tool.started.ask, tool.completed.ask, tool.failed.ask,
+      #   tool.cancelled.ask, tool.timed_out.ask
+      #
+      # If ask-runtime is not available, returns Ask::Runtime::EventSink.null.
+      #
+      # @return [Ask::Runtime::EventSink, Ask::Runtime::EventSink::NullSink]
+      #
+      # @example
+      #   sink = Ask::Instrumentation.install_runtime_sink
+      #   ctx = Ask::Runtime::ExecutionContext.new(event_sink: sink)
+      #
+      def install_runtime_sink
+        require "ask/instrumentation/runtime_adapter"
+        RuntimeAdapter.new.sink
+      rescue LoadError
+        require "ask/runtime"
+        Ask::Runtime::EventSink.null
       end
     end
   end
